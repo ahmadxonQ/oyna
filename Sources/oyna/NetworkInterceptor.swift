@@ -72,7 +72,7 @@ public class NetworkInterceptor: URLProtocol {
             client.urlProtocolDidFinishLoading(self)
         }
         
-        task.resume()
+        //task.resume()
     }
     
     // Stop loading the request
